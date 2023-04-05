@@ -1,0 +1,200 @@
+#bannner {
+    text-align: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    margin-left: 28%;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0, 3px;
+  }
+  nav ul,li,a {
+    text-transform: capitalize;
+    display: flex;
+    padding: 15px;
+  }
+  #cata {
+    border-radius: 30px;
+    width: 200px;
+  }
+  .boxs {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5%;
+  
+  }
+  .boxs>i {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .boxs>input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+  
+  }
+  .flex {
+    background-color: gold;
+    margin-top: -4.5%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #img1 {
+    width: 250px;
+  }
+  .every{
+    margin-left: 5%;
+  }
+  .walker1 {
+    margin-left: 25%;
+    margin-top: -15%;
+  }
+  
+  .walker2 {
+    margin-left: 45%;
+    margin-top: -6%;
+  }
+  
+  #img2 {
+    width: 250px;
+  }
+  
+  .walk {
+    margin-top: 7%;
+  }
+  
+  .walker3 {
+    margin-left: 45%;
+    margin-top: -7.5%;
+  }
+  
+  .move {
+    margin-left: 65%;
+    margin-top: -47%;
+    display: grid;
+    border: 1px solid;
+    width: 350px;
+  }
+  
+  #product {
+    margin-left: 30%;
+  }
+  
+  #price {
+    margin-left: 55%;
+    margin-top: -7%;
+  }
+  
+  #button2 {
+    margin-left: 28%;
+    width: 200px;
+    height: 40px;
+    border-color: aqua;
+  }
+  
+  #button3 {
+    margin-top: 3%;
+    margin-left: 28%;
+    width: 200px;
+    height: 40px;
+    background-color: gold;
+  }
+  
+  .inter {
+    margin-top: 35%;
+    text-align: center;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .kaa {
+    margin-left: 15px;
+  }
+  
+  .daa {
+    margin-left: 25%;
+    margin-top: -22%;
+  }
+  
+  .gaa {
+    margin-left: 50%;
+    margin-top: -24%;
+  }
+  
+  .laa {
+    margin-left: 80%;
+    margin-top: -23%;
+  }
+  
+  #vee {
+    margin-left: 10%;
+    margin-top: -3.5%;
+  }
+  
+  #veee {
+    margin-left: 8%;
+    margin-top: -2.8%;
+  }
+  
+  #veel {
+    margin-left: 13%;
+    margin-top: -5.4%;
+  }
+  
+  #veed {
+    margin-left: 28%;
+  }
+  
+  #veed2 {
+    margin-left: 5%;
+  }
+  
+  #button4 {
+    border-radius: 10px;
+    background-color: rgb(233, 10, 84);
+  }
+  
+  .nkatha {
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+  }
+  
+  .Networks {
+    margin-right: 5%;
+  }
+  
+  .Company {
+    margin-left: 5%;
+  }
+  
+  @media screen and(min-widht: 376px) {
+    body {
+      display: grid;
+      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    }
+  
+    navbar {
+      display: grid;
+    }
+    every{
+      display: grid;
+    }
+  }
+  
